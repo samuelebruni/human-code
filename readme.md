@@ -19,12 +19,15 @@ FINTANTO CHE ci sono pagine da scannerizzare
         - Chiudo il vassoio
         - Avvio nuovamente la scannerizzazione
 
-    - : ALTRIMENTI SE
-        -  le impostazioni dello scanner sono corrette AND il foglio è posizionato nella maniera corretta AND il vassoio è chiuso correttamente
-        - Rieseguo la scansione
-            : ALTRIMENTI 
-            - Chiedo il supporto di un tecnico
+    - : ALTRIMENTI
+    -  ? SE le impostazioni dello scanner sono corrette AND il foglio è posizionato nella maniera corretta AND il vassoio è chiuso correttamente
+            - Rieseguo la scansione
+        : ALTRIMENTI 
+        - Chiedo il supporto di un tecnico
             
+
+- Termino di scannerizzare l'intera pratica
+
 - Mi dirigo verso la libreria
 - Archivio la pratica
 - Torno alla mia postazione
